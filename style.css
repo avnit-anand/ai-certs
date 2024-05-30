@@ -1,0 +1,562 @@
+/* Resetting default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding: 5px 40px;
+  /* padding: 10px 20px; */
+}
+
+.navbar-logo img {
+  width: 15vh; /* Adjust as needed */
+  height: 12vh;
+}
+
+.navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.navbar-button button {
+  margin: 0.75rem;
+  background-color: #cfa935;
+  color: white;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* HERO */
+
+.hero {
+  background-image: url(./assests/images/hero_img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center center;
+  position: relative;
+}
+
+.hero-content {
+  position: absolute;
+  transform: translate(10vw, 30vh);
+}
+
+.hero-content h1 {
+  color: white;
+  font-size: 3.25rem;
+}
+
+.hero-content h1 span {
+  background-color: #cfa935;
+  padding: 2px 10px;
+  border-radius: 3px;
+}
+
+.hero-content h2 {
+  margin-top: 0.75rem;
+  color: white;
+  font-size: 1rem;
+}
+
+/* What we do section starts */
+.what-we-do {
+  background-color: black;
+}
+
+.expertise {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 5px;
+  flex-wrap: wrap;
+}
+
+.expertise button {
+  background-color: #171a24;
+  border: none;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 5px;
+}
+
+.what-we-do-content {
+  text-align: center;
+  margin: 0 20vw;
+}
+
+.what-we-do-content .title {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  color: white;
+  font-size: 12px;
+  letter-spacing: 0.2rem;
+  font-weight: lighter;
+}
+
+.what-we-do-content .content {
+  color: white;
+  font-size: 2rem;
+  align-items: center;
+}
+
+.what-we-do-content .tagLine {
+  margin-top: 3rem;
+  color: #cfa935;
+  font-size: 0.75rem;
+  padding-bottom: 5rem;
+}
+
+/* ----------------------------------------------------
+
+  Countdown
+
+----------------------------------------------------- */
+.countdown-section{
+  background-color: black;
+}
+
+
+.countdown-heading{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.countdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.countdown div {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  color: white;
+  border-radius: 10px;
+}
+
+
+/* -----------------------------------------------------
+
+  Why section  
+
+------------------------------------------------------ */
+.why {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: black;
+  padding-bottom: 5rem;
+}
+
+.why .image {
+  width: 40%;
+  height: 90%;
+}
+
+.data {
+  width: 40%;
+  height: 90%;
+}
+
+.why .data .title {
+  margin-top: 3rem;
+  color: white;
+  font-size: 12px;
+  letter-spacing: 0.2rem;
+  font-weight: lighter;
+  margin-bottom: 1rem;
+}
+
+.why .data .content {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+
+.faq {
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.faq-title {
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 0.75rem;
+}
+
+.faq-text {
+  display: none;
+  padding: 10px;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: lighter;
+}
+
+.border {
+  height: 2px;
+  background-color: #2a2e36;
+  margin-left: 10px;
+}
+
+/* 
+    Certifications 
+*/
+.certification {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 5rem;
+}
+
+.card {
+  width: 50%;
+  height: 45vh;
+  position: relative;
+}
+
+.card1 {
+  background-image: url(./assests/images/card1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card2 {
+  background-image: url(./assests/images/card2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.certification .card .title {
+  color: white;
+  font-size: 30px;
+}
+
+.certification .card .text {
+  color: white;
+  font-size: 0.75rem;
+  font-weight: lighter;
+  margin: 1rem 0;
+}
+
+.button {
+  background-color: #cfa935;
+  color: white;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.wrapper {
+  position: absolute;
+  transform: translate(10%, 80%);
+}
+
+/* 
+    Footer 
+*/
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  justify-content: space-around;
+  padding-bottom: 3rem;
+}
+
+.social {
+  width: 40%;
+}
+
+.social img {
+  margin-bottom: 3rem;
+}
+
+.newsletter-title {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.input img {
+  width: 15px;
+  margin-bottom: 10px;
+}
+
+.logo-and-input {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-and-input .email-placeholder {
+  color: white;
+  font-size: 15px;
+  font-weight: lighter;
+  padding-left: 10px;
+  background-color: transparent;
+  border: none;
+  width: 300px;
+}
+
+.logo-and-input .email-placeholder:focus {
+  background-color: transparent;
+  outline: none;
+  width: 300px;
+}
+
+.social-border {
+  height: 1px;
+  background-color: #2a2e36;
+  margin-bottom: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.footer-link {
+  width: 40%;
+  justify-content: space-between;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.footer-link {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-link h1 {
+  margin-bottom: 1rem;
+}
+
+.footer-link a {
+  margin-bottom: 5px;
+}
+
+.footer-about {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 0.75rem;
+}
+
+.footer-about a {
+  color: #a9a7b0;
+  font-size: 0.75rem;
+  font-weight: lighter;
+}
+
+.footer-certification {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 0.75rem;
+}
+
+.footer-certification a {
+  color: #a9a7b0;
+  font-size: 0.75rem;
+  font-weight: lighter;
+}
+
+.footer-authorized {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 0.75rem;
+}
+
+.footer-authorized a {
+  color: #a9a7b0;
+  font-size: 0.75rem;
+  font-weight: lighter;
+}
+
+/* Copyright */
+.copyright {
+  background-color: black;
+  height: 10vh;
+}
+
+.copyright-border {
+  margin: 0 60px 0 60px;
+}
+
+.copyright-title {
+  color: #a9a7b0;
+  margin-left: 60px;
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+/* Media Quries */
+@media only screen and (max-width: 650px) {
+  /* For mobile phones: */
+  .hero {
+    height: 70vh;
+  }
+
+  .hero-content {
+    position: absolute;
+    transform: translate(10vw, 20vh);
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content h2 {
+    font-size: 0.5rem;
+  }
+
+  .what-we-do-content {
+    margin: 0 10vw;
+  }
+
+  .what-we-do-content .title {
+    font-size: 0.5rem;
+  }
+  .what-we-do-content .content {
+    font-size: 1rem;
+  }
+
+  .what-we-do-content .tagLine {
+    font-size: 0.5rem;
+  }
+
+  .why {
+    flex-direction: column;
+  }
+
+  .why .image {
+    width: 90vw;
+    margin: auto;
+  }
+
+  .why .data {
+    width: 90vw;
+    margin: auto;
+  }
+
+  .certification {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100vw;
+    margin: auto;
+  }
+
+  .card .title {
+    font-size: 0.5rem;
+    width: 80vw;
+  }
+
+  .card .text {
+    width: 80vw;
+  }
+
+  .wrapper {
+    transform: translate(10%, 50%);
+  }
+
+  footer h1 {
+    font-size: 0.75rem;
+  }
+
+  .copyright h1 {
+    width: 80vw;
+    margin: auto;
+    font-size: 0.625rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  /* For mobile phones: */
+  .navbar-links {
+    display: none;
+  }
+
+  .hero {
+    height: 60vh;
+  }
+
+  .hero-content {
+    transform: translate(10vh, 20vw);
+  }
+
+  .hero-content h1 {
+    font-size: 3rem;
+  }
+
+  .why .image {
+    height: 40vh;
+  }
+
+  .certification .card {
+    height: 30vh;
+  }
+
+  .certification .card .wrapper {
+    padding: 0 5vw;
+  }
+
+  .certification .card .wrapper .title {
+    font-size: 1.5rem;
+  }
+
+  footer {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 5vw;
+  }
+
+  .social {
+    width: 80vw;
+    margin: auto;
+  }
+
+  .footer-link {
+    width: 80vw;
+    margin: auto;
+    column-gap: 1rem;
+    margin-bottom: 2rem;
+  }
+}
